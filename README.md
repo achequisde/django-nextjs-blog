@@ -77,5 +77,5 @@ A post object contains an integer `id`, a string `title`, a string `extract`, a 
 
 ## Adding more posts
 
-- Go to `http://localhost:${DJANGO_SERVER_PORT}/admin`
+- Go to `http://localhost:8000/admin`
 
