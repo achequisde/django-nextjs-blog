@@ -36,7 +36,7 @@ Test blog using django as a REST API (with djangorestframework) with NextJS in t
 
 ### Posts
 
-- /api/posts/ - Accepts **GET** (get all posts) and **POST** (add new posts) requests
+- /api/posts/ - Accepts **GET** (get all posts) and **POST** (add new post) requests
 - /api/posts/[postId] - Accepts **GET**, **PUT**, and **DELETE** requests
 
 ## Models
