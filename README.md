@@ -77,4 +77,3 @@ A post object contains an integer `id`, a string `title`, a string `extract`, a 
 ## Adding more posts
 
 - Go to `http://localhost:8000/admin`
-
