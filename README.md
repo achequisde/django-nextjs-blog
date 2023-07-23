@@ -24,10 +24,9 @@ Test blog using django as a REST API (with djangorestframework) with NextJS in t
     python manage.py runserver
     ```
 
-### Front
+### Frontend
 
-1. Run `npm install` inside the *front* folder
-2. Run `npm run dev`
+1. Run `npm install` inside the *front* folder and then `npm run dev`
 
 ## Routes
 
