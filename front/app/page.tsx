@@ -18,7 +18,7 @@ export default async function Home() {
   const posts = await getPosts();
 
   return (
-    <main className="container p-3">
+    <main className="container">
       {posts.map((post, index) =>
         <section>
           <Post key={post.index} {...post} />

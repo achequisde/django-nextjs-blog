@@ -12,8 +12,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header>
-          <nav>
-            <Link className='btn btn-primary m-3' href={'/'}>Home</Link>
+          <nav className='p-3'>
+            <a className='link-primary m-3 text-decoration-none fs-4' href={'/'}>Home</a>
           </nav>
         </header>
         {children}
