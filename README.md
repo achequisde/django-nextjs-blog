@@ -32,12 +32,12 @@ Test blog using django as a REST API (with djangorestframework) with NextJS in t
 
 ### Authors
 
-- authors/ - Accepts **GET** (get all authors) and **POST** (add new author) requests
+- /api/authors/ - Accepts **GET** (get all authors) and **POST** (add new author) requests
 
 ### Posts
 
-- posts/ - Accepts **GET** (get all posts) and **POST** (add new posts) requests
-- posts/[postId] - Accepts **GET**, **PUT**, and **DELETE** requests
+- /api/posts/ - Accepts **GET** (get all posts) and **POST** (add new posts) requests
+- /api/posts/[postId] - Accepts **GET**, **PUT**, and **DELETE** requests
 
 ## Models
 
