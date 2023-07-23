@@ -15,8 +15,14 @@ Test blog using django as a REST API (with djangorestframework) with NextJS in t
 ### Backend
 
 1. Run `pipenv install` inside the root folder
-2. Run `pipenv shell` and then `python manage.py createsuperuser` within the virtual environment
-3. Run `python manage.py runserver` within the virtual environment
+2. Run `pipenv shell` and then within the virtual environment:
+
+    ```bash
+    python manage.py makemigrations
+    python manage.py migrate
+    python manage.py createsuperuser
+    python manage.py runserver
+    ```
 
 ### Front
 
@@ -40,7 +46,7 @@ Test blog using django as a REST API (with djangorestframework) with NextJS in t
 
 An author object contains an integer `id` and a string `name`
 
-```
+```json
 {
     "id": 1,
     "name": "John Smith"
@@ -53,7 +59,7 @@ An author object contains an integer `id` and a string `name`
 
 A post object contains an integer `id`, a string `title`, a string `extract`, a string `content`, a datetime `created`, and an Author `author`
 
-```
+```json
 {
     "id": 1,
     "title": "...",
