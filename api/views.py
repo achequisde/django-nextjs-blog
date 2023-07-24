@@ -48,7 +48,7 @@ class PostsDetailView(APIView):
 
 class AuthorsView(APIView):
     def get(self, request):
-        authors = Author.objects.all()
+        authors = Author.objects.order_by('name')
         serializer = AuthorSerializer(authors, many=True)
 
         return Response(serializer.data)
