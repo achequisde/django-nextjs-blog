@@ -9,7 +9,7 @@ from .serializers import PostSerializer, AuthorSerializer
 
 class PostsView(APIView):
     def get(self, request):
-        posts = Post.objects.all()
+        posts = Post.objects.order_by('-created')[:5]
         serializer = PostSerializer(posts, many=True)
 
         return Response(serializer.data)
